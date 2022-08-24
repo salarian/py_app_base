@@ -1,4 +1,4 @@
-[![.github/workflows/test.yml](https://github.com/salarian/py_app_base/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/salarian/py_app_base/actions/workflows/test.yml)
+[![.github/workflows/test.yml](https://github.com/salarian/py_app_base/actions/workflows/test.yml/badge.svg)](https://github.com/salarian/py_app_base/actions/workflows/test.yml)
 
 # Developer notes
 Don't forget to update the name of the project:
