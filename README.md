@@ -1,8 +1,11 @@
+[![.github/workflows/test.yml](https://github.com/salarian/py_app_base/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/salarian/py_app_base/actions/workflows/test.yml)
+
 # Developer notes
 Don't forget to update the name of the project:
 - In README.md, replace {Project Name} with the correct name
 - In [environment.yml](environment.yml), replace `py_app_base` with the correct name
 - In [test.yml](.github/workflows/test.yml), replance `py_app_base` with the correct name
+- Fix the links for the github workflow badges on top of README.md
 
 
 ## Conda environment
