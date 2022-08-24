@@ -1,3 +1,13 @@
+on: 
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+defaults:
+  run:
+    shell: bash -l {0}
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -11,8 +21,11 @@ jobs:
           environment-file: environment.yml
           environment-name: py_app_base
 
-      # Linux and macOS
-      - name: Run Python
-        shell: bash -l {0}
+      - name: check conda env
         run: |
-          python -m pytest
+          micromamba info
+          micromamba list
+          
+      - name: Run pytest
+        run: |
+          pytest
