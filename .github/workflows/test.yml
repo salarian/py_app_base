@@ -19,7 +19,6 @@ jobs:
         with:
           cache-env: true
           environment-file: environment.yml
-          environment-name: py_app_base
 
       - name: check conda env
         run: |

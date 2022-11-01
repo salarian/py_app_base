@@ -3,8 +3,6 @@
 # Developer notes
 Don't forget to update the name of the project:
 - In README.md, replace {Project Name} with the correct name
-- In [environment.yml](environment.yml), replace `py_app_base` with the correct name
-- In [test.yml](.github/workflows/test.yml), replance `py_app_base` with the correct name
 - Fix the links for the github workflow badges on top of README.md
 
 
@@ -15,7 +13,7 @@ The python development environment for the project is based on conda. If you don
 For the first use, the conda environment can be created using:
 
 ```bash
-$ conda env create -f environment.yml
+$ conda env create -n -f{Project Name} environment.yml
 ```
 
 ### Activating conda environment
