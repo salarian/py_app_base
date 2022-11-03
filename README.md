@@ -13,7 +13,7 @@ The python development environment for the project is based on conda. If you don
 For the first use, the conda environment can be created using:
 
 ```bash
-$ conda env create -n -f{Project Name} environment.yml
+$ conda env create -n {Project Name} -f environment.yml
 ```
 
 ### Activating conda environment
